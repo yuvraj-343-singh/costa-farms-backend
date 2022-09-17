@@ -14,7 +14,7 @@ ini_set('max_execution_time', 0);
 //     echo SimpleXLSX::parseError();
 // }
 
-$csv = array_map('str_getcsv', file('farms.csv'));
+$csv = array_map('str_getcsv', file('farms1.csv'));
 
 $header = [];
 $multiColumns = [];

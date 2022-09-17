@@ -1,9 +1,6 @@
 <?php
 
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET,PUT,POST,DELETE');
-header("Access-Control-Allow-Headers: Content-Type");
-$mysqli = new mysqli("localhost","root","","costa_farms");
+$mysqli = new mysqli("103.212.121.106:3306","farms","@8xy3a0D7","admin_farms");
 
 // Check connection
 if ($mysqli -> connect_errno) {
